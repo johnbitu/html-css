@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Vamp';
+    src: url(Fonts/Vampire\ Wars.ttf) format('truetype'), url(Fonts/Vampire\ Wars.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1 {
+    font-family: 'Vamp';
+    text-align: center;
+    justify-content: space-around;
+}
