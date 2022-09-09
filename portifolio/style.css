@@ -393,9 +393,21 @@ header {
 }
 
 .btn {
+  cursor: pointer;
   background: #6a3093;
   background: -webkit-linear-gradient(to right, #a044ff, #6a3093);
   background: linear-gradient(to left, #a044ff, #6a3093);
+  font-family: var(--font-action);
+  color: #eee;
+  border-radius: 0.5rem;
+  border: none;
+  box-shadow: 0 0.1rem 0.8rem rgba(0, 0, 0, 0.4);
+}
+
+.btn:hover {
+  background: #6a3093;
+  background: -webkit-linear-gradient(to right, #ba89eb, #a56bce);
+  background: linear-gradient(to left, #ca94ff, #9567b6);
   font-family: var(--font-action);
   color: #eee;
   border-radius: 0.5rem;
