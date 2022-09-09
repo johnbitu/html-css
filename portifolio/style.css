@@ -159,6 +159,12 @@ header {
   animation: moveBanner 1s 0.9s forwards;
 }
 
+.banner button:hover {
+  background: #6a3093;
+  background: -webkit-linear-gradient(to right, #bf8ef0, #80589c);
+  background: linear-gradient(to left, #be85f7, #9261b4);
+}
+
 @keyframes moveBanner {
   0% {
     transform: translateY(10rem) rotateY(-30deg);
