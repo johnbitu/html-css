@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body{
+    min-height: 100vh;
+    background-color: #2d2e30;
+}
+
+body {
+    display: center;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header > h1 {
+    padding-top: 50px;
+    font-size: 10mm;
+    padding-top: 50px;
+    font-variant: small-caps;
+}
+
+header a, footer a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+header a:hover, footer a:hover {
+    text-decoration: underline;
+}
+
+header > p {
+    padding-bottom: 50px;
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+}
+
+section.normal {
+    background-color: white;
+    color: black;
+}
+
+section.imagem {
+    background-color: #2d2e30;
+    color:white;
+    padding-left: 30px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section.imagem > p {
+    background-color: #35363701;
+    width: 40vh;
+}
+
+section#img01{
+    background-position: center top;
+    background-image: url(images/peakpx.jpg);
+}
+
+footer {
+    color: #fff;
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+}
