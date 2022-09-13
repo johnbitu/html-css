@@ -11,7 +11,7 @@ body {
 .main-login{
     width: 100vw;
     height: 100vh;
-    background-color: #201b2c;
+    background-color: #252428;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -48,7 +48,7 @@ body {
     align-items: center;
     flex-direction: column;
     padding: 30px 35px;
-    background: #2f2841;
+    background: #37353c;
     border-radius: 20px;
     box-shadow: 0px 10px 40px #00000056;
 }
@@ -72,7 +72,7 @@ body {
     border: none;
     border-radius: 10px;
     padding: 15px;
-    background: #514869;
+    background: #696475;
     color: #fff;
     font-size: 1em;
     box-shadow: 0px 10px 40px #00000056;
