@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300,400,500,600,700,800,900&display=swap');
-*
-{
+
+@font-face {
+    font-family: 'bleach';
+    src: url('Font/Arrancar-rgK98.ttf') format('truetype');
+}
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -61,22 +66,66 @@ section
     position: relative;
     width: 100%;
     height: 100vh;
-    padding: 100px;
+    padding: 0px;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
-h2 
+#text
 {
-    display: block;
-    margin-block-start: 0.83em;
-    margin-block-end: 0.83em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+    display: flex;
     color: #fff;
     font-weight: 700;
     text-decoration: none;
     font-size: 2em;
     text-transform: uppercase;
     letter-spacing: 2px;
+    margin-left: 20px;
+}
+
+.card {
+    border-radius: 20px;
+    box-shadow: 0px 2px 20px #00072d59;
+    background: #fff;
+    width: 350px;
+}
+
+.midiacard {
+    background: url("https://i.pinimg.com/originals/c7/03/9d/c7039d9cd43f04823d229c469890f1f9.jpg") center/cover;
+    height: 200px;
+    width: 100%;
+}
+
+#title {
+    font-family: 'bleach',sans-serif;
+    color: rgb(117,88,143);
+}
+
+.secondtext {
+    text-align: justify;
+    font-family: 'bleach',sans-serif;
+    color: rgb(115, 144, 189);
+}
+
+.topcard {
+    padding: 20px;
+}
+
+.bottomcard {
+    font-family: 'bleach',sans-serif;
+   padding: 20px;
+}
+
+.actions {
+    cursor: pointer;
+    background: none;
+    border: none;
+    color: purple;
+}
+
+.actions:hover {
+    cursor: pointer;
+    background: none;
+    border: none;
+    color: rgb(255, 0, 255);
 }

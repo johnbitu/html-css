@@ -1,4 +1,4 @@
-@font-face {
+   @font-face {
     font-family: 'bleach';
     src: url('Font/Arrancar-rgK98.ttf') format('truetype');
 }
@@ -18,7 +18,7 @@ body {
 
 .card {
     border-radius: 20px;
-    box-shadow: 0px 2px 20px #00072d59;
+    box-shadow: 0px 5px 20px #00072d59;
     background: #fff;
     width: 350px;
 }
