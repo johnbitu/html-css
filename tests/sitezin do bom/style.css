@@ -1,14 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300,400,500,600,700,800,900&display=swap');
-*
-{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins',sans-serif;
 }
-body
+* body
 {
-    min-height: 100vh;
+    background: fixed;
+    height: 100vh;
+    width: 100%;
     background-image: radial-gradient(circle at 97.46% 77.4%, #5a83e8 0, #1a3e78 50%, #030326 100%);
 }
 header
@@ -56,12 +58,11 @@ header ul li a.active
     background: #fff;
     color: #2b1055;
 }
-section
+section#image
 {
     position: relative;
     width: 100%;
     height: 100vh;
-    padding: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -79,4 +80,17 @@ h2
     font-size: 2em;
     text-transform: uppercase;
     letter-spacing: 2px;
+}
+
+section#texto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    color: white;
+}
+
+section#texto > h1 {
+    text-align: center;
 }

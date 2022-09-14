@@ -1,0 +1,28 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body{
+    min-height: 100vh;
+    background-color: #2d2e30;
+}
+
+header {
+  background-color: white;
+  color: white;
+}
+
+header > a {
+    display: flex;
+    padding-left: 10px;
+    font-size: 3em;
+    text-decoration: none;
+    align-content: center;
+}
+
+.menu {
+    display: flex;
+    justify-content:end;
+    padding-right: 10px;
+}
