@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+* body
+{
+    background: fixed;
+    height: 100vh;
+    width: 100%;
+    background-image: radial-gradient(circle at 114.09% 79.88%, #2b515b 0, #2c4c52 8.33%, #2c4649 16.67%, #2d3f40 25%, #2d3737 33.33%, #2c2f2f 41.67%, #2a2627 50%, #271d21 58.33%, #23151c 66.67%, #1f0e1a 75%, #1c0418 83.33%, #170017 91.67%, #100017 100%);
+}
+
+main {
+    height: 100vh;
+    width: 100vw;
+    display: block;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.texto {
+    color: white;
+    align-content: space-between;
+    justify-content: space-between;
+}
+
+#select {
+    border-radius: 15px;
+}
+
+#botao {
+    height: 3vh;
+    width: 5vw;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    border-radius: 10px;
+}
