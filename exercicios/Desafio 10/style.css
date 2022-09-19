@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+@font-face {
+    font-family: 'idroid';
+    src: url(fontes/idroid.otf);
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+
+    margin: 0;
+}
+
+header {
+    height: 30vh;
+    
+    color: white ;
+    background-image: linear-gradient(350deg, #8a3b7e 0, #6c306e 25%, #4d2459 50%, #311843 75%, #1a0c30 100%);
+}
+
+header > h1 {
+    text-align: center;
+
+    margin: 0;
+
+    padding-top: 30px;
+}
+
+header > p {
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    padding-top: 40px;
+}
+
+nav > a {
+    color: white;
+
+    text-align: center;
+    text-decoration: none;
+
+    margin-right: 20px;
+    margin-left:0px ;
+
+    box-sizing: border-box;
+    border-radius: 10px;
+    height: 30px;
+    width: 120px;
+
+    background-color: #4e25591c ;
+}
+
+nav > a:hover {
+    background-color: #8D35A6;
+}
