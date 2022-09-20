@@ -1,0 +1,64 @@
+body {
+    margin: 0px;
+    background-color: rgb(58, 58, 62);
+}
+
+header {
+    background-color: white;
+    padding: 20px;
+    margin: 0px;
+}
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+nav {
+    text-align: end;
+
+    background-color: cadetblue;
+    box-shadow: 5px 5px 10px;
+
+    padding: 5px;
+}
+
+nav > a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin-right: 30px;
+    font-weight: bold;
+    font-size: 3ex;
+}
+
+nav > a:hover {
+    text-decoration: underline;
+}
+
+main {
+    background-color: white;
+    height: 63vh;
+    padding: 20px;    
+    margin: 20px;
+}
+
+article {
+    background-color: rgb(99, 99, 100);
+    
+    padding: 10px;
+    border-radius: 20px;
+}
+
+footer {
+    color: white;
+    background-color: black;
+    
+    text-align: center;
+    
+    padding: 15px;
+    margin: 0px;
+}
+
+footer > p {
+    margin: 0px;
+}
