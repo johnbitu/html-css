@@ -1,3 +1,5 @@
+Logo cor = rgb(39, 65, 65);
+
 Curiosidades de Tecnologia
 
 Tudo aquilo que você sempre quis saber sobre o mundo Tech, em um único lugar

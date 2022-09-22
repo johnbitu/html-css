@@ -5,37 +5,79 @@
     src: url(fontes/idroid.otf);
 }
 
-body {
+* {
+    margin: 0;
+}
+
+ body {
     font-family: 'Roboto', sans-serif;
 
     margin: 0;
+
+    background-color: #24252A;
 }
+
+/*CABEÇALHO*/
 
 header {
     height: 30vh;
     
     color: white ;
-    background-image: linear-gradient(350deg, #8a3b7e 0, #6c306e 25%, #4d2459 50%, #311843 75%, #1a0c30 100%);
+}
+
+header >  span{
+    background-color: rgb(99, 7, 10);
+    box-sizing: border-box;
+    box-shadow: 5px 10px 5px rgb(34, 25, 21);
+    border-radius: 10px;
+    height: 6vh;
+    width: 14vw;
+    
+    justify-content: center;
+    align-items: center;
+    
+    font-weight: 700;
+    font-size: 3ex;
+    
+    display: flex;
+    
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+span > a {
+    text-decoration: none;
+    
+    color: white;
 }
 
 header > h1 {
     text-align: center;
 
-    margin: 0;
+    margin-top: 30px;
 
-    padding-top: 30px;
+    padding-top: 0px;
 }
 
 header > p {
     text-align: center;
 }
 
+/*MENU*/
+
 nav {
     display: flex;
-    padding-top: 40px;
+
+    justify-content: center;
+
+    margin-top: 60px;
 }
 
 nav > a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
     color: white;
 
     text-align: center;
@@ -49,9 +91,60 @@ nav > a {
     height: 30px;
     width: 120px;
 
-    background-color: #4e25591c ;
+    background-color: #2f183500 ;
 }
 
 nav > a:hover {
-    background-color: #8D35A6;
+    background-color: rgb(116,8,11);
+}
+
+/*MAIN*/
+
+main {
+    display: flex;
+
+    justify-content: center;
+
+    margin-top: 80px;
+}
+
+section {
+    
+    justify-content: center;
+
+    box-sizing: border-box;
+    height: 100vh;
+    width: 70vw;
+    background-color: #49346d;
+}
+
+#titulo1 {
+    margin-top: 30px;
+    margin-left: 30px;
+
+    color: white;
+    
+    font-size: 4ex;
+    font-family: 'idroid';
+}
+
+section > h2 {
+    box-sizing: border-box;
+    background-image: rgba(8, 116, 82, 0.311);
+
+    padding-left: 10px;
+
+    margin-top: 30px;
+    margin-left: 30px;
+    
+    color: white;
+
+    font-family: 'idroid';
+}
+
+section > p {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 30px;
+    text-align: center;
 }

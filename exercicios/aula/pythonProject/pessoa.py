@@ -3,7 +3,6 @@ class Pessoa:
         self.nome = 'John'
         self.sexo = 'Masculino'
         self.cpf = '012.555.685-23'
-    pass
 
 pessoa1 = Pessoa()
 print(pessoa1.nome,pessoa1.sexo,pessoa1.cpf)
