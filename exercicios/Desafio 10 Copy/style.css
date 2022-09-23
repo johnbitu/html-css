@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+@font-face {
+    font-family: 'idroid';
+    src: url(fontes/idroid.otf);
+}
+
+* {
+    margin: 0;
+}
+
+ body {
+    font-family: 'Roboto', sans-serif;
+
+    margin: 0;
+
+    background-color: #FCFCFC;/*#24252A*/
+}
+
+:root {
+    --bg: #FCFCFC;
+    --bg-section: #EBEBEB;
+    --title: rgb(99, 7, 10);
+    --text: #333333;
+}
+
+/*CABEÇALHO*/
+
+header {
+    height: 30vh;
+    
+    color: #333333 ;
+}
+
+header > h1 {
+    text-align: center;
+
+    margin-top: 30px;
+
+    padding-top: 0px;
+}
+
+header > p {
+    text-align: center;
+}
+
+/*MENU*/
+
+nav {
+    display: flex;
+
+    justify-content: center;
+
+    margin-top: 60px;
+}
+
+nav > a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #333333;
+
+    text-align: center;
+    text-decoration: none;
+
+    margin-right: 20px;
+    margin-left:0px ;
+
+    box-sizing: border-box;
+    border-radius: 10px;
+    height: 30px;
+    width: 120px;
+
+    background-color: #2f183500 ;
+}
+
+nav > a:hover {
+    background-color: rgb(116,8,11);
+    color: #FCFCFC;
+}
+
+/*MAIN*/
+
+main {
+    display: flex;
+
+    justify-content: center;
+
+    margin-top: 80px;
+    margin: auto;
+
+    min-width: 300px;
+    max-width: 1000px;
+}
+
+article {
+    
+    justify-content: center;
+
+    box-sizing: border-box;
+    height: 100%;
+    width: 70vw;
+    background-color: #EBEBEB;
+}
+
+
+#titulo1 {
+    margin-top: 30px;
+    margin-left: 30px;
+
+    color: rgb(99, 7, 10);
+    
+    font-size: 4ex;
+    font-family: 'idroid';
+}
+
+article > h2 {
+    box-sizing: border-box;
+    background-image: rgba(8, 116, 82, 0.311);
+
+    padding-left: 10px;
+
+    margin-top: 30px;
+    margin-left: 30px;
+    
+    color: rgb(99, 7, 10);
+
+    font-family: 'idroid';
+}
+
+article > p {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 30px;
+    text-align: center;
+}
+/*MIDIAS*/
+
+#lastp {
+    margin-bottom: 40px;
+}
+
+.image-droid {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.image-irina {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.image-bugdroid {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+
+}
+
+#imgbug {
+    width: 50%;
+}
+
+.video {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+main img {
+    width: 100%;
+}
+/*FOOTER*/
+
+footer {
+    background-color: #24252A;
+    color: #FCFCFC;
+
+    text-align: center;
+
+    padding: 30px;
+}
+
+#mylink {
+    text-decoration: none;
+}
