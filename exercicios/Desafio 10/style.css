@@ -14,7 +14,14 @@
 
     margin: 0;
 
-    background-color: #24252A;
+    background-color: #FCFCFC;/*#24252A*/
+}
+
+:root {
+    --bg: #FCFCFC;
+    --bg-section: #EBEBEB;
+    --title: rgb(99, 7, 10);
+    --text: #333333;
 }
 
 /*CABEÇALHO*/
@@ -22,7 +29,7 @@
 header {
     height: 30vh;
     
-    color: white ;
+    color: #333333 ;
 }
 
 header >  span{
@@ -78,7 +85,7 @@ nav > a {
     align-items: center;
     justify-content: center;
 
-    color: white;
+    color: #333333;
 
     text-align: center;
     text-decoration: none;
@@ -96,6 +103,7 @@ nav > a {
 
 nav > a:hover {
     background-color: rgb(116,8,11);
+    color: #FCFCFC;
 }
 
 /*MAIN*/
@@ -106,23 +114,32 @@ main {
     justify-content: center;
 
     margin-top: 80px;
+    margin: auto;
+
+    min-width: 300px;
+    max-width: 1000px;
 }
 
 section {
+    padding: 30px;
+
+    min-width: 300px;
+    max-width: 1000px;
     
     justify-content: center;
 
     box-sizing: border-box;
-    height: 100vh;
+    height: 100%;
     width: 70vw;
-    background-color: #49346d;
+    background-color: #EBEBEB;
 }
+
 
 #titulo1 {
     margin-top: 30px;
     margin-left: 30px;
 
-    color: white;
+    color: rgb(99, 7, 10);
     
     font-size: 4ex;
     font-family: 'idroid';
@@ -137,7 +154,7 @@ section > h2 {
     margin-top: 30px;
     margin-left: 30px;
     
-    color: white;
+    color: rgb(99, 7, 10);
 
     font-family: 'idroid';
 }
@@ -147,4 +164,47 @@ section > p {
     margin-right: 20px;
     margin-top: 30px;
     text-align: center;
+}
+/*MIDIAS*/
+
+#lastp {
+    margin-bottom: 40px;
+}
+
+picture {
+    display: flex;
+    justify-content: center;
+}
+
+.image-irina {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.image-bugdroid {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.video {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+/*FOOTER*/
+
+footer {
+    background-color: #24252A;
+    color: #FCFCFC;
+
+    text-align: center;
+
+    padding: 30px;
+}
+
+#mylink {
+    text-decoration: none;
 }
