@@ -121,10 +121,6 @@ main {
 }
 
 section {
-    padding: 30px;
-
-    min-width: 300px;
-    max-width: 1000px;
     
     justify-content: center;
 
@@ -171,7 +167,8 @@ section > p {
     margin-bottom: 40px;
 }
 
-picture {
+.image-droid {
+    margin-top: 20px;
     display: flex;
     justify-content: center;
 }
