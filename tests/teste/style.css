@@ -7,4 +7,6 @@ body{
     font-size: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-image: linear-gradient(to bottom,#012E40,#024959,#026773,#3CA6A6,#F2E3D5);
+    background-attachment: fixed;
+    background-position: cover;
 }

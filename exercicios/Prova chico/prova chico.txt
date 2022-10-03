@@ -1,0 +1,15 @@
+1- A diferença entre o Framework e a Biblioteca, é que no Framework vamos usar códigos genericos, enquanto na Biblioteca usamos códigos criados por outros desenvolvedores
+
+2- Framework
+
+3- Frontend
+
+4- C
+
+5- <header></header>
+
+6- É uma linguagem de marcação, utilizada geralmente para estilizar o site 
+
+7- B
+
+8- Frontend

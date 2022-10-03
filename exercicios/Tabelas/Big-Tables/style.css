@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+    width: 400px;
+    border-collapse: collapse;
+}
+
+td, th {
+    padding: 3px;
+    border: 2px solid black;
+}
+
+thead, tfoot {
+    background-color: darkgrey;
+}
+
+.num {
+    text-align: right;
+}

@@ -1,0 +1,15 @@
+.linha1 {
+    background-color: aqua;
+}
+
+table {
+    width: 400px;
+    border-collapse:  collapse;
+}
+
+td {
+    border: 1px solid black;
+    padding: 8px;
+    /*text-align para alinhamento horizontal c/ (RIGHT) (CENTER) (LEFT) */
+    /*vertical-align para alinhamento vertical c/ (TOP) (MIDDLE) (BOTTOM)*/
+}
