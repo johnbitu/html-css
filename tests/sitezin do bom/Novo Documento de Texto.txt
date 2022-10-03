@@ -1,0 +1,21 @@
+1 a)
+
+b)
+
+c) 
+
+
+
+a) HTML
+   PHP
+   
+
+2 hospedagens pagas: https://www.hostnet.com.br/
+		     https://www.hostgator.com.br/hospedagem-de-sites
+
+		     Vantagem do host pago: é ter maior segurança com o certificado SSL
+		     		            maior velocidade de acesso a pagina
+		     Desvantagens: 
+
+  hospedagens gratuitas: github.com
+			 XAMPP
